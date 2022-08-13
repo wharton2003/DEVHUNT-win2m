@@ -61,27 +61,30 @@ section{
     background-attachment: fixed;
     background-size: cover;
     padding-top: 219px;
-    border-radius: 20px;
+    /*border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    -o-border-radius: 20px;*/
+    padding-bottom: 300px;
+}
+
+#opac {
+    background: rgba(0, 0, 0, 1);
+    width: 100%;
 }
 
 #presentation > #text-presentation {
     color: white;
-    padding: 3%;
+    padding: 7%;
     text-align: center;
+    font-size: 25px;
 }
 
 #organ{
     display: flex;
     margin-top: 30px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    border-top: #af674d 2px solid;
 }
 
 #organ > span {
@@ -113,11 +116,15 @@ section{
 }
 
 #p-logo > #p-logo-img {
-    width: 90px;
+    width: 130px;
 }
 
 #p-logo{
     font-size: x-large;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    border-top: 2px #af674d solid;
 }
 
 #partenaire > .p-list {
@@ -128,8 +135,17 @@ section{
     flex: 1;
 }
 
+.p-list {
+    border: 2px solid black ;
+    margin: 20px;
+}
+
 #partenaire > .p-list > img{
     width: 40px;
+}
+
+.p-nom{
+    margin-top: 20%;
 }
 
 @media (max-width : 1166px) {
