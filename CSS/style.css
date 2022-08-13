@@ -1,0 +1,121 @@
+*{
+    font-family: century gothic;
+    margin: 0;
+}
+
+/*body{
+    background: #af674d;
+}*/
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style-type: none;
+}
+
+#nav-bar{
+    background: white;
+    position: fixed;
+    width: 100%;
+}
+
+#nav-bar > center > #logoAEENI {
+    width: 180px;
+}
+
+.nav{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    transform: translateX(-2%);
+    -webkit-transform: translateX(-2%);
+    -moz-transform: translateX(-2%);
+    -ms-transform: translateX(-2%);
+    -o-transform: translateX(-2%);
+    border-bottom: #af674d 2px solid;
+}
+
+.nav > .nav-c {
+    flex: 1;
+    padding-bottom: 2%;
+    margin-top: 4%;
+    text-align: center;
+}
+
+.nav>:nth-child(1),.nav>:nth-child(2),.nav>:nth-child(3){
+    border-right: 1px solid #af674d;
+}
+
+section{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#presentation{
+    background: url(../IMAGES/stock-illustration-technology-futuristic-circuit-digital-3d-abstract-sci-fi-concept-with-gradient-dots-lines-abstract-background_77313-441.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 219px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#presentation > #text-presentation {
+    color: white;
+    padding: 3%;
+    text-align: center;
+}
+
+#organ{
+    display: flex;
+    margin-top: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#organ > span {
+    flex: 1;
+}
+
+.o-bas{
+    margin-top: 20px;
+}
+
+.o-img{
+    width: 80px;
+}
+
+.o-legend{
+    background: #af674d;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 70%;
+}
+
+@media (max-width : 1166px) {
+    .nav,section{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #presentation{
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+}
+}
